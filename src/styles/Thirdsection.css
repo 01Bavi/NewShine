@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+.thirdsection{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(52, 115, 113);
+    font-family: poppins;
+    height: 740px;
+}
+
+.thirdsectionTitle{
+    width: 720px;
+    margin-top: 40px;
+}
+
+.thirdsectionTitle h1{
+    font-size: 38px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+}
+.trackcollectionsection{
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.trackcard{
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.trackcard-items{
+    padding: 15px;
+}
+
+.trackcardimage{
+    border-radius: 5px;
+}
+
+.trackcarddescription{
+    width: 300px;
+    align-items: flex-start;
+}
+.trackcarddescription p{
+    font-size: 14px;
+    color: rgb(119, 119, 119);
+    font-weight: 500;
+}
+
+.trackcarddescription h1{
+    font-size: 22px;
+    color: rgb(25, 25, 25);
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+@media screen and (max-width:667px) {
+        
+    .thirdsection{
+        align-items: center;
+        height: 500px;
+    }
+
+    .thirdsectionTitle{
+        width: 500px;
+    }
+
+    .thirdsectionTitle h1{
+        font-size: 20px;
+        font-weight: 500;    
+    }
+    /*
+    .trackcollectionsection{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding-top:15px ;
+    }
+
+    .trackcard{
+        display: flex;
+        background-color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        justify-content: space-evenly;
+        height: 200px ;
+        width:220px ;
+        margin: 0 10px;
+
+
+    }
+
+    .trackcard-items{
+        width: 220px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .trackcardimage{
+        height: 100px;
+        width: 110px;
+        border-radius: 5px;
+    }
+
+    .trackcarddescription{
+        width: 220px;
+        
+        align-items: flex-start;
+    }
+    .trackcarddescription p{
+        font-size: 14px;
+        color: rgb(119, 119, 119);
+        font-weight: 500;
+    }
+
+    .trackcarddescription h1{
+        font-size: 22px;
+        color: rgb(25, 25, 25);
+        font-weight: 600;
+        margin: 5px 0;
+    } */
+
+    
+}

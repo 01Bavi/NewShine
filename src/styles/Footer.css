@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+@media only screen and (min-width:768px){
+    .Footersection{
+        flex-direction: column;
+        min-height: 600px;
+        justify-content: space-evenly;
+        margin-top: 0;
+    }
+}
+.Footersection{
+    font-family: poppins;
+    
+}
+.footer{
+    display: flex;
+    height: 60vh;
+    width: 75%;
+    justify-content: space-between;
+    margin: 5em ;
+
+}
+.footer-left{
+}
+
+
+.icon-collection{
+    display: flex;
+}
+.socialmeadiaicons{
+    width:24px ;
+    height:24px ;
+    margin-right: 30px;
+}
+.footer-right{
+   
+}
+.footer-right-grid{
+    display: flex;
+}
+.footer-right-grid-card {
+
+    flex-direction: column;
+    width: 150px;
+    margin: 1em;
+    margin-bottom: 10px;
+    
+}
+.Footersection h6{
+    color: rgb(68,47,58);
+    font-weight: 600;
+    font-size: 17px;
+}
+.atagalign p{
+    color: rgb(119,119,119);
+    font-size: 13px;
+    
+}
+
+.downloadapps-section{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0; 
+}
+
+.downloadApps{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+}
+.downloadAppsimage{
+    height: 56px;
+    width: 182px;
+    margin-right: 32px;
+}
+.line{
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid rgb(242, 237, 240);
+    width: 85%;
+
+}
+.copyright-section{
+    /* margin-left: ; */
+    display: flex;
+    align-items: center;
+    width: 400px;
+}
+.copyright-section p{
+    color: rgb(119, 119, 119);
+    font-size: 13px;
+
+}

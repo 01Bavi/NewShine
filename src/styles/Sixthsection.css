@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+.sixthsection{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(248, 238, 216);
+    font-family: poppins;
+}
+
+.sixthsectioncontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.sixthsectionh3{
+    font-weight: 600;
+    font-size: 38px;
+    max-width: 480px;
+    letter-spacing: 0.02em;
+    line-height: 1.4;
+    color: rgb(68, 47, 58);
+
+}
+
+.sixthsectionp{
+    font-size: 22px;
+    max-width: 600px;
+    padding-top: 0px;
+}
+
+.sixthsection button{
+    width: 195px;
+    height: 50px;
+    color: rgb(68, 47, 58);
+    background-color: rgb(247, 202, 93);
+    border-radius: 47px;
+    font-weight: 650;
+    font-size: 15px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    border: none;
+}
+.sixthsection button:hover{
+    background-color: rgba(203, 116, 16, 0.664);
+    color: rgb(37, 7, 65); 
+}
+
+.sixthsectionimage{
+    max-width: 600px;
+
+
+}
+
